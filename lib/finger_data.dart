@@ -27,19 +27,19 @@ class FingerData {
   final String wSQInfo;
 
   FingerData({
-    required this.fingerImage,
-    required this.quality,
-    required this.nfiq,
-    required this.rawData,
-    required this.iSOTemplate,
-    required this.inWidth,
-    required this.inHeight,
-    required this.inArea,
-    required this.resolution,
-    required this.grayScale,
-    required this.bpp,
-    required this.wSQCompressRatio,
-    required this.wSQInfo,
+     required this.fingerImage,
+     required this.quality,
+     required this.nfiq,
+     required this.rawData,
+     required this.iSOTemplate,
+     required this.inWidth,
+     required this.inHeight,
+     required this.inArea,
+     required this.resolution,
+     required this.grayScale,
+     required this.bpp,
+     required this.wSQCompressRatio,
+     required this.wSQInfo,
   });
 
   factory FingerData.load(Map<dynamic, dynamic> data){

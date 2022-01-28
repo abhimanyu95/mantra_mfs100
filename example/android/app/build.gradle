@@ -43,12 +43,10 @@ android {
         }
     }
 
-
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
-    //JNI Lib Declaration
     sourceSets.main {
         jniLibs.srcDirs 'src/main/jniLibs'
     }

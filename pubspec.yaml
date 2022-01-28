@@ -1,7 +1,7 @@
 name: mantra_mfs100
 description: Flutter plugin for Mantra MFS 100 Fingerprint device.
 version: 0.0.1
-homepage: https://github.com/abhimanyu95
+homepage: https://github.com/abhimanyu95/mantra_mfs100
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
