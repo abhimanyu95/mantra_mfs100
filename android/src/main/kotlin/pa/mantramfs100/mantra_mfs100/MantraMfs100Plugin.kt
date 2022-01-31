@@ -126,7 +126,7 @@ class MantraMfs100Plugin: FlutterPlugin, MethodCallHandler{
 
             override fun onListen(arguments: Any?, events: EventChannel.EventSink) {
                 Log.e("onListen->","$events")
-                showToast("onListening")
+//                showToast("onListening")
 
                 mfsEvent=object:MFS100Event{
 
