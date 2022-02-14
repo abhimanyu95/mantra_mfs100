@@ -2,7 +2,6 @@ export 'msf_100_event.dart';
 export 'finger_data.dart';
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mantra_mfs100/finger_data.dart';
 import 'msf_100_event.dart';
@@ -108,17 +107,4 @@ class MantraMfs100 {
 
 }
 
-showAlert(BuildContext context, String msg){
-
-  final AlertDialog alert=AlertDialog(
-    title: const Text('Testing'),
-    content: Text(msg),
-    actions: [TextButton(onPressed: (){
-      Navigator.pop(context);
-    }, child: const Text('OK'))],
-  );
-
-  showDialog(context: context, builder: (ctx)=> alert);
-
-}
 
